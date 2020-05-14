@@ -1,0 +1,352 @@
+@import url('https://googleapis.com/css2?family=Source+Sans+Pro:wght@200')
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+/******************
+ Header Css Start
+*********************/
+.header-section{
+    width: 100%;
+    background: url(../images/back.png) center top no-repeat;
+    color: #000;
+}
+.header-section .logo{
+  width: 100%;
+  padding: 40px 0px;
+  text-align: center;
+}
+.header-section .header-inner .navbar{
+    width: 100%;
+    padding: 40px 0px;
+    font-family: 'Poppins', sans-serif;
+    background: transparent !important;
+    color: #fff;
+    
+}
+.header-section .header-inner .navbar .nav-item .nav-link{
+	padding-left: 35px;
+  font-size: 14px;
+  margin-left: 18px;
+  font-weight: 600;
+  color: #fff;
+
+}
+.header-inner .form-inline .btn{
+   font-size: 18px;
+   line-height: 18px;
+  font-weight: 600;
+  padding: 10px 0px;
+  color: #ffffff;
+  background: transparent;
+  border-radius: 5px;
+}
+.header-inner .form-inline .btn:hover{
+ background: #fb383b;
+  color: #ffffff;
+  transition: 1s;
+}
+.header-section .inner-header{
+	width: 100%;
+	padding: 70px 0px;
+}
+.header-section .inner-header h2{
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 700;
+	color: #ffffff; 
+}
+.header-section .inner-header p{
+	padding: 20px 0px;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #ffffff;
+}
+.header-section .inner-header .btn{
+   font-size: 18px;
+   line-height: 18px;
+   font-weight: 600;
+   padding: 10px 0px;
+  color: #ffffff;
+  background: transparent;
+  border-radius: 5px;	
+}
+.header-section .inner-header .btn:hover{
+ background: #fb383b;
+  color: #ffffff;
+  transition: 1s;
+}
+/****************************
+	review section css start
+*****************************/
+.review{
+	width: 100%;
+	padding: 60px 0px;
+}
+.review .lorem h2{
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 600;
+	color: #000;
+}
+.review .media{
+	padding: 10px 0px;
+	text-align: center;
+}
+.review .media h5{
+	padding-top: 50px;
+	font-size: 22px;
+	line-height: 28px;
+	font-weight: 600;
+	color: #000;
+}
+.review .media h5:hover{
+	transition: 1s;
+	color: #fb383b;
+}
+.review .section-2 h2{
+	text-align: center;
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 600;
+	color: #000;
+}
+.review .section-2 .review-inner {
+	padding: 20px;
+}
+.review .section-2 .review-inner h6{
+	text-align: center;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 600;
+	color: #000;	
+}
+.review .section-2 .review-inner p{
+	text-align: center;
+	font-size: 10px;
+	line-height: 16px;
+	font-weight: 500;
+	color: #000;	
+}
+.review .section-2 .media-2{
+	padding: 20px;
+}
+.review .section-2 .media-2 h5{
+	padding-left: 90px;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 500;
+	color: #000;	
+}
+
+/***************************
+	review section css end
+****************************/
+
+
+/**************************
+	click section css start
+****************************/
+.click{
+	width: 100%;
+	padding: 30px;
+	background: #000;
+}
+.click .click-inner{
+	padding-left: 20px;
+}
+
+
+/**************************
+	click section css end
+****************************/
+/********************************
+	latest section color start
+********************************/
+.latest{
+	width: 100%;
+	padding: 30px;
+	background: #ebebeb;
+}
+.latest .latest-like h2{
+	font-size: 22px;
+	line-height: 26px;
+	font-weight: 600;
+	color: #000;	
+}
+.latest-btn .btn-primary{
+	color: #000;
+	background: #ffffff;
+}
+.latest-btn .btn-primary:hover{
+	background: #fb383b;
+	color: #000;	
+	transition: 1s;
+}	
+
+/********************************
+	latest section color End
+********************************/
+/********************************
+	footer section css start
+*********************************/
+.footer{
+	width: 100%;
+	padding: 30px;
+	background: #000;
+	color: #fff;
+}
+.footer .footer1 h3{
+	padding-top: 20px;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 600;
+}
+.footer .footer1 p{
+	padding: 30px 20px 0px 0px;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 500;
+}
+.footer .footer2 h3{
+	padding: 22px;
+	font-size: 24px;
+	line-height: 20px;
+	font-weight: 600;
+}
+.footer .footer2 p{
+	padding-left: 20px;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 500;
+}
+.footer .footer3 h3{
+	padding: 22px;
+	font-size: 24px;
+	line-height: 20px;
+	font-weight: 600;
+}
+.footer .footer3 p{
+	padding-left: 20px;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 500;
+}
+.footer .footer4 h3{
+	padding: 22px;
+	font-size: 24px;
+	line-height: 20px;
+	font-weight: 600
+}
+.footer .footer4 .f-icon{
+	padding: 10px;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 600;
+}
+.footer .footer4 .social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 20px;
+}
+.footer .footer4 .social-icon ul li a i{
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	background: #fff;
+	border-radius: 50%;
+	color: #313243;
+}
+.footer .footer4 .social-icon .fa-facebook:hover{
+	background: #08c;
+	color: #fff;
+	transition: 1s;
+}	
+/********************************
+	footer section css end
+*********************************/
+/**********************************************************************************************/
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}
